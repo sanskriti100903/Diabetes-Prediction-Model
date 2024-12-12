@@ -7,14 +7,14 @@ Interactive Web Interface: A simple, responsive front-end built using HTML, CSS,
 Backend Communication: Node.js server that communicates with a Flask-based Python backend to handle data processing and prediction.
 Machine Learning Model: Logistic Regression model trained using the scikit-learn library to predict diabetes risk based on clinical parameters.<br>
 
-#Technologies Used
+# Technologies Used
 Frontend: HTML, CSS, JavaScript
 Backend: Node.js
 Machine Learning: Python, scikit-learn, Flask
 Model: Logistic Regression
 Model Persistence: Pickle
 
-#Clinical Parameters
+# Clinical Parameters
 The following clinical parameters are required for the prediction:
 Pregnancies: Number of pregnancies the patient has had.
 Glucose: Plasma glucose concentration after 2 hours in an oral glucose tolerance test.
