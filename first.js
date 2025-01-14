@@ -16,7 +16,7 @@ document.getElementById("predictionForm").addEventListener("submit", async funct
         // Sending the data to the backend
         const response = await fetch("http://localhost:5000/predict", {  // Ensure Flask is running on port 5000
             method: "POST",
-            headers: { "Content-Type": "application/json" },
+            headers: { "Content-Type": "application/json" },// sends as json format
             body: JSON.stringify(formData),  // Send form data as JSON
         });
   
@@ -32,4 +32,4 @@ document.getElementById("predictionForm").addEventListener("submit", async funct
         document.getElementById("result").innerText = "Error occurred. Please try again.";
     }
   });
-  
+ 
