@@ -28,4 +28,5 @@ app.post("/predict", async (req, res) => {
 // Start the server
 app.listen(PORT, () => {
     console.log(`Node.js server running on http://localhost:${PORT}`);
-});
+})
+
